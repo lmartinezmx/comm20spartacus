@@ -5,10 +5,10 @@ A hybirs commerce installation (2005) with spartacus storefront integration
 
 ## Versions:
 
-Commerce 2005 (Unzip modules and platform folders into \core-customize\hybris\bin)
-node 12.20.1
-angular/cli 9.1.13
-yarn 1.22.5
+* Commerce 2005 (Unzip modules and platform folders into \core-customize\hybris\bin)
+* node 12.20.1
+* angular/cli 9.1.13
+* yarn 1.22.5
 
 ## Run the next command to Install the following addons:
 
