@@ -36,11 +36,13 @@
     <extension name='commercefacades' />
     <extension name='commerceservices' />
     <extension name='commerceservicesbackoffice' />
-    <extension name='commercewebservices' />
+    <!--<extension name='commercewebservices' />-->
     <extension name='commercewebservicescommons' />
+    <!--
     <extension name='commercewebservicestests' />
     <extension name='yocc' />
     <extension name='yocctests' />
+    -->
     <extension name='configurablebundleaddon' />
     <extension name='configurablebundlebackoffice' />
     <extension name='configurablebundlefacades' />
@@ -174,8 +176,11 @@
     <extension name='cmsfacades' />
     <extension name='cmsocc' />
     <extension name='cmswebservices' />
+
+    <!--
     <extension name='webservicescommons' />
     <extension name='ywebservices' />
+    -->
 
 <!-- Sample Extensions -->
     <extension name='spartacussampledataaddon' />
@@ -186,6 +191,8 @@
     <!--<extension name='azurecloudhotfolder' />
     <extension name='cloudcommons' />
     <extension name='cloudhotfolder' />-->
+
+    <extension name="customcommercews"/>
 
   </extensions>
 </hybrisconfig>
