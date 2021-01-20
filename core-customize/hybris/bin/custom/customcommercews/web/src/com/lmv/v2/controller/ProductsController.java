@@ -97,7 +97,7 @@ import io.swagger.annotations.Authorization;
 
 @Controller
 @Api(tags = "Products")
-@RequestMapping(value = "/{baseSiteId}/products")
+@RequestMapping(value = "/{baseSiteId}/customproducts")
 public class ProductsController extends BaseController
 {
 	private static final EnumSet<ProductOption> PRODUCT_OPTIONS_SET = EnumSet.allOf(ProductOption.class);

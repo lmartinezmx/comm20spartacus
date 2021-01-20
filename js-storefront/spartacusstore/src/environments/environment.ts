@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   occBaseUrl:
     'https://localhost:9002',
-  prefix: '/occ/v2/' 
+  prefix: '/customcommercews/v2/' 
 };
 
 /*

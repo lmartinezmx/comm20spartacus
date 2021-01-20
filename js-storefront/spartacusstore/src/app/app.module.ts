@@ -7,7 +7,12 @@ import { B2cStorefrontModule } from '@spartacus/storefront';
 import { OccConfig } from '@spartacus/core';
 import { environment } from './../environments/environment';
 
-const occConfig: OccConfig = { backend: { occ: {} } };
+const occConfig: OccConfig = { backend: { occ: {
+  endpoints: {
+    product:
+        'customproducts/${productCode}?fields=DEFAULT',
+    }
+} } };
 
 // only provide the `occ.baseUrl` key if it is explicitly configured, otherwise the value of
 // <meta name="occ-backend-base-url" > is ignored.
@@ -19,7 +24,7 @@ if (environment.prefix) {
   occConfig.backend.occ.prefix = environment.prefix;
 }
 else {
-  occConfig.backend.occ.prefix = '/occ/v2/';
+  occConfig.backend.occ.prefix = '/customcommercews/v2/';
 }
 
 

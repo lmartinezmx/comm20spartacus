@@ -8,12 +8,11 @@
                 		
         
         <requires-extension name="commercefacades"/>
-                		
-        
         <requires-extension name="commercewebservicescommons"/>
-                		
-        
         <requires-extension name="ordermanagementfacades"/>
+        <requires-extension name="cms2" />
+        <requires-extension name="cmsfacades" />
+        <requires-extension name="cmsocc" />
                 		
         
         <coremodule generated="true" manager="de.hybris.platform.jalo.extension.GenericManager" packageroot="com.lmv"/>

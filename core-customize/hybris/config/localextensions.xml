@@ -190,9 +190,22 @@
 <!-- If you want to test Cloud Hot Folders locally download the extensions from https://launchpad.support.sap.com/#/notes/2817992 and uncomment the following -->
     <!--<extension name='azurecloudhotfolder' />
     <extension name='cloudcommons' />
-    <extension name='cloudhotfolder' />-->
+    <extension name='cloudhotfolder' />
+
 
     <extension name="customcommercews"/>
+    <extension name='ywebservices' />
+    <extension name='commercewebservicestests' />
+    <extension name='yocc' />
+    <extension name='yocctests' />
+
+    -->
+
+    <extension name='commercewebservices' />
+    <extension name='webservicescommons' />
+    <extension name="customcommercews"/>
+
+
 
   </extensions>
 </hybrisconfig>
