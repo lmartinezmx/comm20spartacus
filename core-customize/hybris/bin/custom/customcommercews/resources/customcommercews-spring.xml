@@ -282,5 +282,15 @@
 			</list>
 		</property>
 	</bean>
+
+	<alias name="defaultCustomCustomerPopulator" alias="customCustomerPopulator"/>
+	<bean id="defaultCustomCustomerPopulator" class="com.lmv.customer.populator.CustomCustomerPopulator">
+		<property name="addressConverter" ref="addressConverter"/>
+	</bean>
+
+	<bean parent="modifyPopulatorList">
+		<property name="list" ref="customerConverter"/>
+		<property name="add" ref="customCustomerPopulator"/>
+	</bean>
 	
 </beans>

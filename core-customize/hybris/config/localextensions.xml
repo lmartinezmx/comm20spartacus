@@ -205,7 +205,7 @@
     <extension name='webservicescommons' />
     <extension name="customcommercews"/>
 
-
+    <extension name="oauth2" />
 
   </extensions>
 </hybrisconfig>

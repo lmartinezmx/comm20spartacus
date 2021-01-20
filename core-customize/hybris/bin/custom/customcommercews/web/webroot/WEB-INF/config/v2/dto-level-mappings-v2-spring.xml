@@ -156,11 +156,11 @@
         <property name="levelMapping">
             <map>
                 <entry key="BASIC"
-                       value="lastName,title,titleCode,displayUid,defaultAddress,language,firstName,currency,uid,name,customerId,deactivationDate"/>
+                       value="lastName,title,titleCode,displayUid,defaultAddress,language,firstName,currency,uid,name,customerId,deactivationDate,nickname"/>
                 <entry key="DEFAULT"
-                       value="lastName,title,titleCode,displayUid,defaultAddress(DEFAULT),language(DEFAULT),firstName,currency(DEFAULT),uid,name,customerId,deactivationDate"/>
+                       value="lastName,title,titleCode,displayUid,defaultAddress(DEFAULT),language(DEFAULT),firstName,currency(DEFAULT),uid,name,customerId,deactivationDate,nickname"/>
                 <entry key="FULL"
-                       value="lastName,title,titleCode,displayUid,defaultAddress(FULL),language(FULL),firstName,currency(FULL),uid,name,customerId,deactivationDate"/>
+                       value="lastName,title,titleCode,displayUid,defaultAddress(FULL),language(FULL),firstName,currency(FULL),uid,name,customerId,deactivationDate,nickname,workOfficeAddress(FULL)"/>
             </map>
         </property>
     </bean>
