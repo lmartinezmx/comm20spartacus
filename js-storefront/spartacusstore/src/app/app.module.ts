@@ -6,6 +6,7 @@ import { translations, translationChunksConfig } from '@spartacus/assets';
 import { B2cStorefrontModule } from '@spartacus/storefront';
 import { OccConfig } from '@spartacus/core';
 import { environment } from './../environments/environment';
+import { CheckoutConfigurationModule } from './configuration/checkout.module';
 
 const occConfig: OccConfig = { backend: { occ: {
   endpoints: {
@@ -50,6 +51,7 @@ else {
         level: '2.0'
       }
     }),
+    CheckoutConfigurationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
